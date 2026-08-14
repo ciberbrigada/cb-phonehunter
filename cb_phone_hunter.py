@@ -144,8 +144,8 @@ def dato(k, v): print(f"  {C}  ▸ {D}{k}:{RS} {W}{B}{v}{RS}")
 # ══════════════════════════════════════════════════════════════════════════════
 def modulo_analisis(phone_raw):
     sep("ANÁLISIS DEL NÚMERO")
-    try:
-        try:
+    try:+6287796328808
+        try:6287796328808
             parsed = phonenumbers.parse(phone_raw)
         except Exception:
             parsed = phonenumbers.parse(phone_raw, "AR")
@@ -192,7 +192,7 @@ def modulo_analisis(phone_raw):
 
     except Exception as e:
         fail(f"Error al analizar: {e}")
-        warn("Incluí el código de país. Ej: +54 9 11 1234-5678")
+        warn("Incluí el código de país. Ej: 6287796328808")
         return None, None, None, None
 
 # ══════════════════════════════════════════════════════════════════════════════
